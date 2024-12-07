@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", serif;
+}
+
+.container {
+  height: 300px;
+  width: 700px;
+  border: 2px solid;
+  margin: 100px auto;
+  border-radius: 10px;
+}
+header {
+  margin: 50px auto 20px 50px;
+}
+h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.body {
+  margin-left: 50px;
+  display: flex;
+  position: relative;
+}
+#inp-number {
+  width: 75px;
+  height: 40px;
+  border: 2px solid;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+.box {
+  border: 2px solid;
+  border-radius: 10px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 30px;
+  font-size: 20px;
+  margin: 0px 5px 0px 10px;
+  width: 140px;
+  height: 40px;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+}
+.box:hover {
+  background-color: rgb(207, 207, 207);
+}
+span {
+  padding-top: 10px;
+  margin-top: 10px;
+  position: absolute;
+  content: "";
+  top: -12px;
+  left: 17px;
+}
+
+.from {
+  position: absolute;
+  content: "";
+  top: 47px;
+  left: 86px;
+}
+.to {
+  position: absolute;
+  content: "";
+  top: 47px;
+  left: 241px;
+}
+ul {
+  width: 140px;
+  height: 140px;
+  border: 2px solid;
+  border-radius: 10px;
+  position: relative;
+  background-color: white;
+}
+.unit {
+  font-size: 20px;
+  width: 130px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+.unit:hover {
+  background-color: rgb(207, 207, 207);
+  border-radius: 10px;
+}
+.unit-1 {
+  position: absolute;
+  top: 10px;
+  left: 3px;
+}
+.unit-2 {
+  position: absolute;
+  top: 50px;
+  left: 3px;
+}
+.unit-3 {
+  position: absolute;
+  top: 90px;
+  left: 3px;
+}
+#convert {
+  background-color: black;
+  color: white;
+  width: 120px;
+  border-radius: 10px;
+  border: 2px solid black;
+  font-size: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+#convert:hover {
+  background-color: rgb(46, 46, 46);
+}
+.result {
+  margin: 50px auto auto 50px;
+  color: rgb(2, 144, 96);
+}
